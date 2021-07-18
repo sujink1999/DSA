@@ -1,4 +1,4 @@
-# Implementation of Binary Heap (min heap)
+# Implementation of Binary Heap ( min heap )
 
 class Heap:
     def __init__(self):
@@ -50,7 +50,7 @@ heap = Heap()
 
 for i in range(10, 0, -1):
     heap.add(i)
-    
+
 print(heap.remove())
 print(heap.remove())
 print(heap.remove())
