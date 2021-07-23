@@ -1,10 +1,8 @@
-# Implementation of Fenwick Tree - Range Query (Binary Indexed Tree)
+# Implementation of Fenwick Tree - Range Update (Binary Indexed Tree)
 
 class BIT:
-    def __init__(self, arr):
-        self.bITree = [0] * (len(arr)+1)
-        for i, val in enumerate(arr):
-            self.update(i, val)
+    def __init__(self, n):
+        self.bITree = [0] * (n+1)
 
     def getSum(self, index):
         summ = 0 
@@ -18,7 +16,14 @@ class BIT:
         return summ
 
     def lsb(self, val):
-        return val & (-val)   
+        return val & (-val)
+
+    def updateRange(self, left, right, val):
+        self.update(left, val)
+        self.update(right+1, -1 * val)
+
+    def getElement(self, index):
+        return self.getSum(index)       
         
     def update(self, index, val):
         index+=1
@@ -31,5 +36,14 @@ class BIT:
 
 
 # Driver code
-bit = BIT([1,5,1,1,10])
-print(bit.getSum(1))
+bit = BIT(6)
+bit.updateRange(0,3,10)
+bit.updateRange(0,2,-5)
+bit.updateRange(3,4,2)
+print(bit.getElement(4))
+
+# When an array is the input, two trees are maintained, one for the actual array (BIT1) and the other for 
+# the range updates (BIT2). Therefore getElement(i) is arr[i] + getSum(BIT2, i) 
+
+# 5 5 5 12 2
+
