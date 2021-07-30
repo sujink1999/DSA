@@ -1,42 +1,34 @@
 # Implementation of Segment tree using arrays
 
-N = 100000
-tree = [0] * (2 * N)
- 
-def build(arr) :
-    for i in range(n) :
-        tree[n + i] = arr[i]
-     
-    for i in range(n - 1, 0, -1) :
-        tree[i] = tree[i << 1] + tree[i << 1 | 1]
- 
-def updateTreeNode(p, value) :
-    tree[p + n] = value
-    p = p + n
-    i = p
-    while i > 1 :
-        tree[i >> 1] = tree[i] + tree[i ^ 1]
-        i >>= 1
- 
-def query(l, r) :
-    res = 0
-    l += n
-    r += n
-    while l < r :
-        if (l & 1) :
-            res += tree[l]
-            l += 1
-        if (r & 1) :
-            r -= 1
-            res += tree[r]
-        l >>= 1
-        r >>= 1
-    return res
- 
-# Driver Code 
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-n = len(a)
-build(a)
-print(query(1, 3))
-updateTreeNode(2, 1)
-print(query(1, 3))
+import math
+
+max_value = (2 ** 32) -1
+
+class SegmentTree:
+    def __init__(self, array):
+        next_power_of_2 = int(math.ceil(math.log2(len(array))))
+        max_size = 2 * ( 2 ** next_power_of_2) -1
+        self.tree = [0] * max_size
+        self.constructTree(0, len(array)-1, 0, array)
+        print(self.tree)
+
+    def constructTree(self, left, right, parent, array):
+        if left == right:
+            self.tree[parent] = array[left]
+            return 
+        mid = (left + right) // 2
+        self.constructTree(left, mid, 2*parent+1, array)
+        self.constructTree(mid+1, right, 2*parent+2, array)
+        self.tree[parent] = min(self.tree[2*parent+1], self.tree[2*parent+2])
+
+    def query(self, ql, qr, left, right, pos):
+        if ql <= left and qr >= right:
+            return self.tree[pos]
+        if right < ql or left > qr:
+            return max_value
+        mid = (left + right) // 2
+        return min(self.query(ql, qr, left, mid, 2*pos+1), self.query(ql, qr, mid+1, right, 2*pos+2))
+
+# Driver code
+segment_tree = SegmentTree([-1, -2, 4, 0, 3, 4, 5, -10])
+print(segment_tree.query(1,7,0,7,0))
