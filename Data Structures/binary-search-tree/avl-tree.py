@@ -120,7 +120,7 @@ class AVL_Tree(object):
 # Driver code
 avlTree = AVL_Tree()
 root = None
-nums = [9, 5, 10, 0, 6, 11, -1, 1, 2]
+nums = [9, 5, 10, 0, 6, 11, -1, 1, 2, 3]
  
 for num in nums:
     root = avlTree.insert(root, num)
