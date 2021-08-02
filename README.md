@@ -4,5 +4,6 @@
 </h3>
 
 ## Leetcode Problems
+1. [Two Sum](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/two-sum.py)
 1. [Three Sum](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/three-sum.py)
 1. [Accounts Merge](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/accounts-merge.py)
