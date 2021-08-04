@@ -8,3 +8,4 @@
 1. [Three Sum](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/three-sum.py)
 1. [Accounts Merge](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/accounts-merge.py)
 1. [Subsets II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/subsets-2.py)
+1. [Path Sum II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/path-sum-2.py)
