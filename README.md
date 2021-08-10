@@ -14,3 +14,4 @@
 1. [N-ary Tree Level Order Traversal](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/n-ary-tree-level-order.py)
 1. [Palindrome Partitioning II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/palindrome-partitioning-2.py)
 1. [Rank Transform of a Matrix](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/matrix-rank-transform.py)
+1. [Add Strings](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/add-strings.py)
