@@ -19,4 +19,5 @@
 1. [Array of Doubled Pairs](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/array-of-doubled-pairs.py)
 1. [Group Anagrams](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/group-anagrams.py)
 1. [Set Matrix Zeroes](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/set-matrix-zeroes.py)
+1. [Making a Large Island](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/making-a-large-island.py)
 
