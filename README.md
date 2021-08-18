@@ -22,4 +22,5 @@
 1. [Making a Large Island](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/making-a-large-island.py)
 1. [Minimum Window Substring](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/minimum-window-substring.py)
 1. [Range Sum Query - Immutable](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/range-sum-query-immutable.py)
+1. [Count Good Nodes in Binary Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/count-good-nodes-in-binary-tree.py)
 
