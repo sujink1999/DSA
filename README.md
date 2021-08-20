@@ -24,4 +24,5 @@
 1. [Range Sum Query - Immutable](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/range-sum-query-immutable.py)
 1. [Count Good Nodes in Binary Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/count-good-nodes-in-binary-tree.py)
 1. [Decode Ways](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/decode-ways.py)
+1. [Maximum Product of Splitted Binary Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/maximum-product-splitted-binary-tree.py)
 
