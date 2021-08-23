@@ -27,4 +27,5 @@
 1. [Maximum Product of Splitted Binary Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/maximum-product-splitted-binary-tree.py)
 1. [Valid Sudoku](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/valid-sudoku.py)
 1. [Sudoku Solver](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/sudoku-solver.py)
+1. [Rectangle Area II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/rectangle-area-ii.py)
 
