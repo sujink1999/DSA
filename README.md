@@ -29,7 +29,7 @@
 1. [Sudoku Solver](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/sudoku-solver.py)
 1. [Rectangle Area II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/rectangle-area-ii.py)
 1. [Two Sum IV - Input is a BST](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/two-sum-iv.py)
-
+1. [Complex Number Multiplication](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/complex-number-multiplication.py)
   
 
 
