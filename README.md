@@ -37,3 +37,4 @@
 30. [Orderly Queue](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/orderly-queue.py)
 31. [Slowest Key](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/slowest-key.py)
 32. [Reverse Linked List](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/reverse-linked-list.py)
+33. [Sum of Distances in Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/sum-of-distances-tree.py)
