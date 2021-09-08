@@ -4,6 +4,7 @@
 </h3>
 
 ## Leetcode Problems
+
 1. [Two Sum](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/two-sum.py)
 2. [Sum of Square Numbers](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/sum-of-square-numbers.py)
 3. [Three Sum](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/three-sum.py)
@@ -34,4 +35,4 @@
 28. [Verify Preorder Serialization of a Binary Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/verify-preorder-serialization-bt.py)
 29. [Longest Uncommon Subsequence II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/longest-uncommon-subsequence-ii.py)
 30. [Orderly Queue](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/orderly-queue.py)
-
+31. [Slowest Key](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/slowest-key.py)
