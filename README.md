@@ -40,3 +40,4 @@
 33. [Sum of Distances in Tree](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/sum-of-distances-tree.py)
 34. [Range Addition II](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/range-addition-ii.py)
 35. [Shifting Letters](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/shifting-letters.py)
+36. [Largest Plus Sign](https://github.com/sujink1999/DSA/blob/master/Problems%20and%20Solutions/largest-plus-sign.py)
